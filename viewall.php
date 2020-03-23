@@ -31,7 +31,7 @@ include './navbar.php';
 
 <?php
 include './db.php';
-$conn = new mysqli("localhost", "root", "", "solar");
+$conn = new mysqli("localhost", "root", "root", "solar");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
